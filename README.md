@@ -1,7 +1,11 @@
-# test
+pip install streamlit
 
-#練習
+import streamlit as st
+import pandas as pd 
+import plotly.express as px
 
-#編集
-
-#新しい文
+df = px.data.iris()
+df 
+x = 10
+'x =', x 
+st.write("何でも書ける")
